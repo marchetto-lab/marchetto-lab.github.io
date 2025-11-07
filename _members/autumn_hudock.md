@@ -1,5 +1,5 @@
 ---
-name: Autumn Haddock
+name: Autumn Hudock
 image: images/autumn
 description: PhD Student
 role: phd

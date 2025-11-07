@@ -3,7 +3,7 @@ name: Amandeep Sharma
 image: images/photo.jpg
 Description: Research Assistant
 role: research assistant
-group: 
+group: Research Associate
 links:
 ---
 

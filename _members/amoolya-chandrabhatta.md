@@ -1,8 +1,8 @@
 ---
 name: Amoolya Chandrabhatta
 image: images/photo.jpg
-role: undergrad
-description: Undergraduate Researcher
+role: Undergraduate Researcher
+description: Research Assistant; Stanford University
 group: 
 links:
 ---

@@ -1,7 +1,7 @@
 ---
 name: Kaia Foster
 image: images/kaia_foster.jpg
-description: Undergraduate Researcher
+description: Graduate Student, UCSF Neurosciences
 role: Undergraduate Researcher
 group: Alumni
 links:

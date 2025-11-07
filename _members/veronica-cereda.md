@@ -3,8 +3,8 @@ name: Veronica Cereda
 image: images/photo.jpg
 description: Postdoctoral Researcher
 role: postdoc
-group: 
+group: Postdoctoral Researcher
 links:
 ---
 
-Aman is a research associate in the lab working on the AUTS2 project.
+Veronica works on the AUTS2 Project.

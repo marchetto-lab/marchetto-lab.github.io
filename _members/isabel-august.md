@@ -1,9 +1,9 @@
 ---
 name: Isabel August
-image: images/photo.jpg
+image: images/isabel
 description: PhD Student
 role: phd
-group: 
+group: PhD student
 links:
 ---
 

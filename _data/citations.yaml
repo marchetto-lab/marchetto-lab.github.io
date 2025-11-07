@@ -1,5 +1,52 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
+- id: pubmed:41030967
+  title: CK2 inhibition suppresses glial inflammation in the brain.
+  authors:
+  - Ioana I N Da Silva
+  - Desiree Ramirez
+  - Sarah L Parylak
+  - Leslie A Wallace
+  - James K Tucker
+  - Joel M Erberich
+  - Rutvi Katariya
+  - Aidan H McDonald
+  - Iryna S Gallina
+  - Ariana L Tucker
+  - Jillybeth Burgado
+  - Baptiste N Jaeger
+  - Jerika J Barron
+  - Joshua M Pratt
+  - Monique Pena
+  - Vipula Racha
+  - Christina K Lim
+  - Sarah Fernandes
+  - Simone Benassi
+  - Lynne Randolph-Moore
+  - Krishna C Vadodaria
+  - Maria C Marchetto
+  - Nicola J Allen
+  - Fred H Gage
+  publisher: 'bioRxiv : the preprint server for biology'
+  date: '2025-08-07'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/41030967
+  term: Marchetto, MC
+  plugin: pubmed.py
+  file: pubmed.yaml
+- id: pubmed:39806778
+  title: 'Evolution of Human Susceptibility to Alzheimer''s Disease: A Review of Hypotheses
+    and Comparative Evidence.'
+  authors:
+  - Isabel August
+  - Pascal Gagneux
+  - Katerina Semendeferi
+  - Maria Carolina Marchetto
+  publisher: Evolutionary anthropology
+  date: '2025-03-01'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/39806778
+  term: Marchetto, MC
+  plugin: pubmed.py
+  file: pubmed.yaml
 - id: pubmed:39156632
   title: Modeling Alzheimer's disease using human cell derived brain organoids and
     3D models.

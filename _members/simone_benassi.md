@@ -1,7 +1,7 @@
 ---
 name: Simone Benassi
 image: 
-description: Research Assistant and Lab Manager
+description: Staff Research Associate and Lab Manager
 role: lab manager
 affiliation: University of California, San Diego
 ---

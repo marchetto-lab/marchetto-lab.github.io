@@ -15,7 +15,8 @@ Meet our lab!
 
 {% for group in grouped %}
   {% include section.html title=group.name %}
-  {% include list.html data="members" component="portrait" filters="group: {{ group.name }}" %}
+  {% assign filter_string = "group: " | append: group.name %}
+  {% include list.html data="members" component="portrait" filters=filter_string %}
 {% endfor %}
 
 {% include section.html background="images/Screen Shot 2024-09-13 at 9.34.05 AM.png" dark=false %}

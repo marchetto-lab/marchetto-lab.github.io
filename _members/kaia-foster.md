@@ -2,8 +2,8 @@
 name: Kaia Foster
 image: images/photo.jpg
 description: Undergraduate Researcher
-role: undergrad
-group: 
+role: Undergraduate Researcher
+group: Alumni
 links:
 ---
 

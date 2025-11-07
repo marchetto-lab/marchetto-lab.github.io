@@ -2,7 +2,6 @@
 name: Carol Marchetto
 image: images/carol.png
 role: PI
-affiliation: University of California, San Diego
 group: PI
 aliases:
 links:

@@ -11,8 +11,12 @@ Meet our lab!
 
 {% include section.html %}
 
-{% include list.html data="members" component="portrait" filters="role: pi" %}
-{% include list.html data="members" component="portrait" filters="role: ^(?!pi$)" %}
+{% assign grouped = site.members | group_by: "group" | sort: "name" %}
+
+{% for group in grouped %}
+  {% include section.html title=group.name %}
+  {% include list.html data="members" component="portrait" filters="group: {{ group.name }}" %}
+{% endfor %}
 
 {% include section.html background="images/Screen Shot 2024-09-13 at 9.34.05 AM.png" dark=false %}
 

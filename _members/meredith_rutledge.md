@@ -1,6 +1,6 @@
 ---
 name: Meredith Rutledge
-image: images/meredith_rutledge.jpeg
+image: images/meredith.jpg
 description: PhD Student
 role: phd
 group: PhD Student

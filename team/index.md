@@ -13,7 +13,7 @@ Meet our lab!
 
 {% assign grouped = site.members | group_by: "group" | sort: "name" %}
 
-{% assign group_order = "PI,Postdoctoral Researcher,PhD Student,Research Associate, Undergraduate Student, Alumni" | split: "," %}
+{% assign group_order = "PI, Postdoctoral Researcher, PhD Student, Research Associate, Undergraduate Student, Alumni" | split: "," %}
 
 
 {% assign group_order = "Principal Investigator,Postdoc,Student,Collaborator" | split: "," %}
@@ -22,11 +22,7 @@ Meet our lab!
   {% assign members_in_group = site.members | where: "group", group_name %}
   {% if members_in_group.size > 0 %}
     {% assign plural_group = group_name | append: "s" %}
-    {% include section.html title=plural_group %}
-    
-    <!-- Add the heading manually -->
-    <h2 class="team-group-title">{{ plural_group }}</h2>
-    
+    {% include section.html title=plural_group %}    
     {% include section.html %}
     
     {% assign filter_string = "group: " | append: group_name %}

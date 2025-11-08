@@ -11,30 +11,30 @@ Meet our lab!
 
 {% include section.html %}
 
-{% assign grouped = site.members | group_by: "group" | sort: "name" %}
-
-{% assign group_order = "PI,Postdoctoral Researcher,PhD Student,Research Associate, Undergraduate Student, Alumni" | split: "," %}
-
-
-{% assign group_order = "Principal Investigator,Postdoc,Student,Collaborator" | split: "," %}
+{% comment %}
+Define the order of groups here. Make sure these match the 'group' field in your member files.
+{% endcomment %}
+{% assign group_order = "PI,Postdoctoral Researcher,PhD Student,Undergraduate Student, Alumni" | split: "," %}
 
 {% for group_name in group_order %}
   {% assign members_in_group = site.members | where: "group", group_name %}
   {% if members_in_group.size > 0 %}
     {% assign plural_group = group_name | append: "s" %}
-    
-    <!-- Add the heading manually -->
+
+    <!-- Group heading -->
     <h2 class="team-group-title">{{ plural_group }}</h2>
-    
+
+    <!-- Optional section spacing/background -->
     {% include section.html %}
-    
+
+    <!-- Portrait cards for this group -->
     {% assign filter_string = "group: " | append: group_name %}
     {% include list.html data="members" component="portrait" filters=filter_string %}
+
   {% endif %}
 {% endfor %}
 
 {% include section.html background="images/Screen Shot 2024-09-13 at 9.34.05 AM.png" dark=false %}
-
 
 {% include section.html %}
 

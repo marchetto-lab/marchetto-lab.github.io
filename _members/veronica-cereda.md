@@ -1,6 +1,6 @@
 ---
 name: Veronica Cereda
-image: images/photo.jpg
+image: images/veronica.png
 description: Postdoctoral Researcher
 role: postdoc
 group: Postdoctoral Researcher

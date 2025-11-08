@@ -3,6 +3,7 @@ name: Carol Marchetto
 image: images/carol.png
 role: PI
 group: PI
+description: Principal Investigator and Assistant Professor in Anthropology at UCSD
 aliases:
 links:
 

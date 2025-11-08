@@ -11,6 +11,22 @@ Meet our lab!
 
 {% include section.html %}
 
+<!-- Principal Investigators -->
+<h2 class="team-group-title">Principal Investigators</h2>
+{% include list.html data="members" component="portrait" filters="group: PI" %}
+
+<!-- Postdoctoral Researchers -->
+<h2 class="team-group-title">Postdoctoral Researchers</h2>
+{% include list.html data="members" component="portrait" filters="group: Postdoctoral Researcher" %}
+
+<!-- PhD Students -->
+<h2 class="team-group-title">PhD Students</h2>
+{% include list.html data="members" component="portrait" filters="group: PhD Students" %}
+
+<!-- Alumni -->
+<h2 class="team-group-title">Alumni</h2>
+{% include list.html data="members" component="portrait" filters="group: Alumni" %}
+
 {% assign grouped = site.members | group_by: "group" | sort: "name" %}
 
 {% assign group_order = "PI,Postdoctoral Researcher,PhD Student,Research Associate, Undergraduate Student, Alumni" | split: "," %}

@@ -2,6 +2,10 @@
   see content.html
 {% endcomment %}
 
+{% if include.title %}
+  <h2>{{ include.title }}</h2>
+{% endif %}
+
 <!-- section break -->
 <!--
   background: {{ include.background }};

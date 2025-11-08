@@ -15,4 +15,4 @@ We use a combination of cellular, molecular and genetic tools to study neurodeve
 
 ## Our Projects
 
-{% include list.html component="card" data="projects" style="large" %}
+{% include list.html component="card" data="projects" style="large" columns=2 %}
